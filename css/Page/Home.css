@@ -1,0 +1,138 @@
+#Home {
+  flex: 1; /* Home이 가능한 공간을 모두 차지하도록 설정 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 내용이 위에서부터 쌓이도록 */
+}
+
+.search_area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search_area > #search_box {
+  width: 700px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box_area {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box_area > .box {
+  height: 105px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  margin: 0px 15px 30px 15px;
+}
+
+.box_area > .box:hover {
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.box_area > .box > .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  height: 25px;
+}
+
+.info > span {
+  margin-top: 5px;
+}
+
+#modal-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 60;
+}
+
+#modal-box.active {
+  display: flex;
+}
+
+#modal-contents {
+  background-color: #fff;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#modal-contents button {
+  background-color: rgb(34, 32, 32);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#modal-contents button:hover {
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+#scam_info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#fraud_id {
+  margin-right: 5px;
+}
+
+#fraud_id::after{
+  content: "번";
+}
+
+#discord_user::before {
+  content: "디스코드 사용자명 : ";
+}
+
+#discord_id::before {
+  content: "디스코드 ID : ";
+}
+
+#amount::before {
+  content: "사기 금액 : ";
+}
+
+#amount::after {
+  content: "원";
+}

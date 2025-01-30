@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="주사위 도박 사기꾼에 대한 정보 제공">
+  
+  <!-- Main -->
+  <link rel="stylesheet" href="css/main.css"> <!-- Main -->
+  <!-- UI -->
+  <link rel="stylesheet" href="css/UI/alert.css"> <!-- 알림 -->
+  <link rel="stylesheet" href="css/UI/top.css"> <!-- 상단 -->
+  <link rel="stylesheet" href="css/UI/footer.css"> <!-- 하단바 -->
+
+  <!-- 페이지 별 -->
+  <link rel="stylesheet" href="css/Page/Home.css"> <!-- Home -->
+  <link rel="stylesheet" href="css/Page/Contact.css"> <!-- Contact -->
+
+  <!-- 세팅 -->
+  <link rel="stylesheet" href="css/Setting/font.css">  <!-- Font -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/ms-icon-144x144.png"/>
+  <link rel="apple-touch-icon" href="img/apple-icon-144x144.png"/>
+
+  <title>주사위 도박 더치트</title>
+</head>
+<body>
+  <div class="alertbox">
+    <div id="alerts"></div>
+  </div>
+
+  <div class="topbox">
+    <div class="notice"></div>
+  </div>
+  
+  <div class="container" id="Home">
+    <div class="search_area">
+      <input type="text" id="search_box" oninput="search()" placeholder="검색하고 싶은 유저의 정보를 입력해주세요.">
+    </div>
+    
+    <div class="box_area">
+    </div>
+
+    <div id="modal-box">
+      <div id="modal-contents">
+        <button id="close">닫기</button>
+        <h1 id="fraud_title">Loading...</h1>
+        <div id="scam_info">
+          <span id="victim_modal">Loading...</span>
+          <span id="amount_modal">Loading...</span>
+          <span id="link_modal">Loading...</span>
+        </div>
+      </div>
+    </div>    
+
+  </div>
+
+  <div class="container" id="Contact">
+    <div class="contact_box">
+      <div class="info_box">
+        <span>디스코드
+          <p>eunhaxu</p>
+          <span id="copyDiscord"><i class="far fa-clipboard"></i></span>
+          <span id="linkDiscord"><i class="fab fa-discord" id="infoMail"></i></span>
+        </span>
+      </div>
+      <p>Icon을 클릭시 사용자명 복사 또는 프로필 창으로 연결됩니다.</p>
+      <footer>
+        <div class="footer_box">
+          <p id="Copyright">Copyright &copy; 2025 Eunhaxu. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/alert.js"></script>
+  <script src="js/copy.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/notice.js"></script>
+</body>
+</html>

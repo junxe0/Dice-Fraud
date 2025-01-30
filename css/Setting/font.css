@@ -1,0 +1,164 @@
+/* Gugi */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+/* Do Hyeon */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* Gasoek One */
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+/* Mr Dafoe */
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+/* Playball */
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+/* Jua */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* gabia_napjakBlock 가비아 납작블랙 */
+@font-face {
+  font-family: "gabia_napjakBlock";
+  src: url("../../font/gabia_napjakBlock.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Anurati */
+@font-face {
+  font-family: "Anurati";
+  src: url("../../font/Anurati-Regular.otf") format("OpenType");
+  font-weight: normal;
+}
+
+/* Metropolis */
+@font-face {
+  font-family: "Metropolis";
+  src: url("../../font/Metropolis1920-Regular.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Matsury Demo */
+@font-face {
+  font-family: "Matsury Demo";
+  src: url("../../font/Matsury_Demo.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Higher */
+@font-face {
+  font-family: "Higher";
+  src: url("../../font/Higher.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Swistblnk Banthers */
+@font-face {
+  font-family: "Swistblnk Banthers";
+  src: url("../../font/Swistblnk Banthers.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Fonarto 1.2 */
+/* Fonarto */
+@font-face {
+  font-family: "Fonarto";
+  src: url("../../font/Fonarto.ttf") format("TrueType");
+  font-weight: normal;
+}
+/* Fonarto XT */
+@font-face {
+  font-family: "Fonarto XT";
+  src: url("../../font/Fonarto XT.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Fonarto 2.0 */
+/* Fonarto-Regular */
+@font-face {
+  font-family: "Fonarto-Regular";
+  src: url("../../font/Fonarto-Regular.ttf") format("TrueType");
+  font-weight: normal;
+}
+/* Fonarto-Light */
+@font-face {
+  font-family: "Fonarto-Light";
+  src: url("../../font/Fonarto-Light.ttf") format("TrueType");
+  font-weight: normal;
+}
+/* Fonarto-Bold */
+@font-face {
+  font-family: "Fonarto-Bold";
+  src: url("../../font/Fonarto-Bold.ttf") format("TrueType");
+  font-weight: normal;
+}
+
+/* Ridge5-Bold */
+@font-face {
+  font-family: "Ridge5-Bold";
+  src: url("../../font/Ridge5-Bold.otf") format("OpenType");
+  font-weight: normal;
+}
+
+/* ridge */
+/* ridge-bold */
+@font-face {
+  font-family: "ridge-bold";
+  src: url("../../font/ridge-bold.otf") format("OpenType");
+  font-weight: normal;
+}
+/* ridge-bold-oblique */
+@font-face {
+  font-family: "ridge-bold-oblique";
+  src: url("../../font/ridge-bold-oblique.otf") format("OpenType");
+  font-weight: normal;
+}
+/* ridge-light */
+@font-face {
+  font-family: "ridge-light";
+  src: url("../../font/ridge-light.otf") format("OpenType");
+  font-weight: normal;
+}
+/* ridge-light-oblique */
+@font-face {
+  font-family: "ridge-light-oblique";
+  src: url("../../font/ridge-light-oblique.otf") format("OpenType");
+  font-weight: normal;
+}
+
+/* Soak Up The Sun Script */
+/* Soak Up The Sun Script */
+@font-face {
+  font-family: "Soak Up The Sun Script";
+  src: url("../../font/Soak_Up_The_Sun_Script.otf") format("OpenType");
+  font-weight: normal;
+}
+/* Soak Up The Sun Script Bold */
+@font-face {
+  font-family: "Soak Up The Sun Script Bold";
+  src: url("../../font/Soak_Up_The_Sun_Script-Bold.otf") format("OpenType");
+  font-weight: normal;
+}
+
+/* BagelFatOne-Regular */
+@font-face {
+  font-family: 'BagelFatOne-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* April16th-Promise */
+@font-face {
+  font-family: 'April16th-Promise';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/April16th-Promise.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* TTHakgyoansimUndongjangL */
+@font-face {
+  font-family: 'TTHakgyoansimUndongjangL';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimUndongjangL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
